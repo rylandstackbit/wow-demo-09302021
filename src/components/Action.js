@@ -35,7 +35,6 @@ export default function Action(props) {
         >
             {actionIcon && <Icon icon={actionIcon} />}
             <span className={classNames({ 'order-first': actionIconPos === 'right' })}>{label}</span>
-            <p>Hello world</p>
         </Link>
     );
 }
