@@ -21,7 +21,7 @@ export default function SectionHero(props) {
                     {image && (
                         <div className="cell block-preview">
                             <img src={withPrefix(image)} alt={imageAlt} />
-                            <video src="" />
+                            <video src="VIDEO_LINK" />
                         </div>
                     )}
                     <div className="cell block-content">
