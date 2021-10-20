@@ -44,7 +44,7 @@ function PricingPlan(plan) {
         <div className="cell plan">
             <div className={classNames('card', { highlight: highlight })}>
                 <div className="plan-header">
-                    {title && <h1 className="plan-title">{title}</h4>}
+                    {title && <h1 className="plan-title">{title}</h1>}
                     {subtitle && <div className="plan-subtitle">{subtitle}</div>}
                     {price && <div className="plan-price">{price}</div>}
                 </div>
