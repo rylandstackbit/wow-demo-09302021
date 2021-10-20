@@ -16,7 +16,7 @@ export default function SectionPricing(props) {
     return (
         <section id={sectionId} className={`block pricing-block bg-${background} outer`}>
             <div className="block-header inner-small">
-                {title && <h2 className="block-title">{title}</h1>}
+                {title && <h2 className="block-title">{title}</h2>}
                 {subtitle && <p className="block-subtitle">{subtitle}</p>}
             </div>
             {pricingPlans && (
