@@ -7,7 +7,7 @@ export default function Banner(props) {
 
     return (
         <div>
-            
+            Hello world
         </div>
     );
 }
