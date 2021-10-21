@@ -13,7 +13,7 @@ const sectionsMap = {
     section_posts: dynamic(() => import('../components/SectionPosts')),
     section_pricing: dynamic(() => import('../components/SectionPricing')),
     section_reviews: dynamic(() => import('../components/SectionReviews')),
-    section_contact: dynamic(() => import('../components/SectionContact'))
+    section_contact: dynamic(() => import('../components/SectionContact')),
     banner: dynamic(() => import('../components/Banner'))
 };
 
