@@ -5,6 +5,7 @@ export default function Banner(props) {
     
     return (
         <div>
+            <p></p>
             {headline}
         </div>
     );
