@@ -1,10 +1,4 @@
 import React from 'react';
-import _ from 'lodash';
-
-import Icon from './Icon';
-import Link from '../utils/link';
-import withPrefix from '../utils/withPrefix';
-import classNames from '../utils/classNames';
 
 export default function Action(props) {
     const action = _.get(props, 'action');
