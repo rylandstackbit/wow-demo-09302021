@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Action(props) {
+export default function Banner(props) {
     const action = _.get(props, 'action');
     const url = _.get(action, 'url');
     const label = _.get(action, 'label');
