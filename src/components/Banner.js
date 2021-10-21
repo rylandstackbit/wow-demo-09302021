@@ -3,12 +3,7 @@ import React from 'react';
 export default function Banner(props) {
     const action = _.get(props, 'action');
     
-    if (newWindow) {
-        attrs.target = '_blank';
-    }
-    if (newWindow || noFollow) {
-        attrs.rel = [(newWindow ? 'noopener' : '') + (noFollow ? 'nofollow' : '')].join(' ');
-    }
+    
 
     return (
         <Link
