@@ -6,7 +6,6 @@ export default function Banner(props) {
     return (
         <div>
             <p>{headline}</p>
-            
         </div>
     );
 }
