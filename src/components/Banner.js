@@ -5,8 +5,8 @@ export default function Banner(props) {
     
     return (
         <div>
-            <p></p>
-            {headline}
+            <p>{headline}</p>
+            
         </div>
     );
 }
