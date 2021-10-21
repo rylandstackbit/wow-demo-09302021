@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Banner(props) {
-    const headline = .get(props.headline);
+    const headline = (props.headline);
     
     return (
         <div>
