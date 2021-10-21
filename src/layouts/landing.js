@@ -14,6 +14,7 @@ const sectionsMap = {
     section_pricing: dynamic(() => import('../components/SectionPricing')),
     section_reviews: dynamic(() => import('../components/SectionReviews')),
     section_contact: dynamic(() => import('../components/SectionContact'))
+    section_contact: dynamic(() => import('../components/SectionContact'))
 };
 
 export default function Landing(props) {
