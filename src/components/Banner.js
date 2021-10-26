@@ -7,7 +7,9 @@ export default function Banner(props) {
     const actionButton = (props.section.action)
     return (
         <div>
-            <p>{headline}</p>
+            <p>{headline}
+            <Action key={idx} action={action} />
+            </p>
         </div>
     );
 }
