@@ -8,7 +8,7 @@ export default function Banner(props) {
     return (
         <div>
             <p>{headline}
-            <Action key={idx} action={action} />
+            <Action key={idx} action={actionButon} />
             </p>
         </div>
     );
