@@ -41,7 +41,9 @@ function PricingPlan(plan) {
     const actions = _.get(plan, 'actions');
     return (
         <div className="c-card-section">
-            Hello
+            <div>
+                
+            </div>
         </div>
     )
     return (
