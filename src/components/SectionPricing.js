@@ -256,6 +256,7 @@ function PricingPlan(plan) {
                                                     </div>
 				</div>
 			</div>
+            </div>
                                             )
                                                 return (
         <div className="cell plan">
