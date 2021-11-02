@@ -284,14 +284,14 @@
       margin-bottom: 10px;
 
       .gift-card {
-        border: 2px dashed $black;
+        border: 2px dashed #000000;
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
 
         &.bg-red {
           background: none;
-          color: $black;
+          color: #000000;
 
           .circle {
             background-color: #c62328;
@@ -304,7 +304,7 @@
 
         &.bg-orange {
           background: none;
-          color: $black;
+          color: #000000;
 
           .circle {
             background-color: #f06634;
@@ -317,7 +317,7 @@
 
         &.bg-yellow {
           background: none;
-          color: $black;
+          color: #000000;
 
           .circle {
             background: #ffc40c;
@@ -330,7 +330,7 @@
 
         &.bg-blue {
           background: none;
-          color: $black;
+          color: #000000;
 
           .circle {
             background: #10ace3;
@@ -566,13 +566,13 @@
           padding-right: 0;
 
           a {
-            color: $black;
+            color: #000000;
             text-decoration: none;
             font-weight: 400;
             font-size: 14px;
 
             &:hover {
-              color: $black;
+              color: #000000;
               text-decoration: none;
             }
           }
