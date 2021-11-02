@@ -42,7 +42,7 @@ function PricingPlan(plan) {
     return (
         <div className="c-card-section">
             <div className="e-card optFinishedCard INTERNET active-offer e-card_1">
-        hello
+                
             </div>
         </div>
     )
