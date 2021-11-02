@@ -39,9 +39,9 @@ function PricingPlan(plan) {
     const price = _.get(plan, 'price');
     const details = _.get(plan, 'details');
     const actions = _.get(plan, 'actions');
-return(
-    
-)
+    return(
+        
+    )
     return (
         <div className="cell plan">
             <div className={classNames('card', { highlight: highlight })}>
