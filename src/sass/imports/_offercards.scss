@@ -190,7 +190,7 @@
 
   .card-top {
     padding: 20px 20px 18px;
-    border-bottom: 1px solid $grey--light;
+    border-bottom: 1px solid #e5e5e5;
 
     .btn--blue {
       padding-left: 0;
@@ -346,7 +346,7 @@
           height: 60px;
           flex-basis: 60px;
           flex-shrink: 0;
-          background: $grey--light;
+          background: #e5e5e5;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -405,7 +405,7 @@
     }
 
     &.features {
-      border-bottom: 1px solid $grey--light;
+      border-bottom: 1px solid #e5e5e5;
       min-height: 200px;
 
       ul {
