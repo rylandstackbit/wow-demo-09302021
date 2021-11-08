@@ -12,6 +12,7 @@ const sectionsMap = {
     section_hero: dynamic(() => import('../components/SectionHero')),
     section_posts: dynamic(() => import('../components/SectionPosts')),
     section_pricing: dynamic(() => import('../components/SectionPricing')),
+    section_offers: dynamic(() => import('../components/SectionOffers')),
     section_reviews: dynamic(() => import('../components/SectionReviews')),
     section_contact: dynamic(() => import('../components/SectionContact')),
     banner: dynamic(() => import('../components/Banner'))
